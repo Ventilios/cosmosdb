@@ -74,7 +74,7 @@ public class App
             sample1_SqlIn(ids, container, false);
 
             //
-            // Exmaple 2 - Generate a SQL query with the array_contains function
+            // Example 2 - Generate a SQL query with the array_contains function
             // https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/query/array-contains
             sample2_SqlArrayContains(ids, container, false);
 
@@ -268,7 +268,7 @@ public class App
         final long duration = (endTime - startTime);
 
         // Print the total RU charge for all read operations
-        System.out.println("Example 4 - Total Request Charge for ReadItem: " + totalRequestCharge + " RUs." + " Duration: " + duration + "ms");
+        System.out.println("Example 4 - Total Request Charge: " + totalRequestCharge + " RUs." + " Duration: " + duration + "ms");
     }
 
 
@@ -298,7 +298,7 @@ public class App
         final long duration = (endTime - startTime);
 
         double requestCharge = feedResponse.getRequestCharge();
-        System.out.println("Example 5 - Request Charge for readMany operation: " + requestCharge + " RUs." + " Duration: " + duration + "ms");
+        System.out.println("Example 5 - Total Request Charge: " + requestCharge + " RUs." + " Duration: " + duration + "ms");
     }
 
 
