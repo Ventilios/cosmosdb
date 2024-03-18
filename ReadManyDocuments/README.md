@@ -2,7 +2,7 @@
 Script with 5 examples to fetch multiple documents (based on WHERE [column] IN (..) pattern). 
 Two versions: 
 * App.java - Requiring a manual list and single execution.
-* App_fetchRandomItems - Can create a list based on the configured container and loop multiple times over the test.
+* App_fetchRandomItems - Using fetchRandomItems you can create a random list of ids based on the configured container. Also contains a loop to execute tests multiple times.
 
 ```
 // Example 1 - Generate a SQL query with the IN clause
