@@ -33,7 +33,7 @@ public class App_fetchRandomItems {
 
         // 
         // Replace <your-cosmos-endpoint>, <your-cosmos-key>, <your-database-name>, and <your-container-name>
-         String endpoint = "https://<your-cosmos-endpoint>.documents.azure.com:443/";
+        String endpoint = "https://<your-cosmos-endpoint>.documents.azure.com:443/";
         String key = "<your-cosmos-key>";
         
         String databaseName = "<your-database-name>";
