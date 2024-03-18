@@ -26,3 +26,12 @@ sample4_SqlApiReadItem(ids, container, false);
 // https://devblogs.microsoft.com/cosmosdb/read-many-items-fast-with-the-java-sdk-for-azure-cosmos-db/
 sample5_SqlApiReadMany(ids, container, false);
 ```
+
+Using the following Cosmos DB related Maven dependency:
+```
+    <dependency>
+      <groupId>com.azure</groupId>
+      <artifactId>azure-cosmos</artifactId>
+      <version>4.11.0</version>
+    </dependency>
+```
